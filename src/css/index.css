@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+/* ================================= 
+  ELEMENT STYLES
+==================================== */
+
+
+
+body {
+  color: #576366;
+  background: #5fcf80;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #404040;
+  font-size: 1.6em;
+  margin-bottom: 1.25em;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #3b80d1;
+}
+hr {
+  border: 0;
+  height: 0;
+  margin: 2.3em 0 2em 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+
+.main-container{
+  text-align: center;
+}
+
+p {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.review {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: white;
+  display: inline-block;
+
+  padding: 1%;
+  margin: 5%;
+  border-radius: 25px;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  border-width: 5%;
+  border-style: solid dotted;
+  border-color: transparent;
+  background-image: url("https://image.freepik.com/free-photo/old-grunge-dark-textured-wooden-background-the-surface-of-the-old-brown-wood-texture_7182-333.jpg");
+}
+
+.reviews-wrapper {
+  margin: auto;
+
+}
+
+.home a,
+input,
+button {
+  padding: .5em;
+  font-size: .9em;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  outline: none;
+}
+button {
+  color: white;
+  background: #4188dc;
+  padding-left: 1em;
+  padding-right: 1em;
+  cursor: pointer;
+  border-color: rgba(0,0,0, .1);
+}
+
+/* ================================= 
+  LAYOUT & PAGE STYLES
+==================================== */
+
+.container {
+  width: 95%;
+  max-width: 780px;
+  padding-bottom: 2em;
+  margin: 0 auto 2em;
+  background: #fff;
+  border-radius: .5em;
+  box-shadow: 0 3px rgba(0,0,0, .1);
+  overflow: hidden;
+}
+header {
+  background: #edeff0;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.nav-header {
+  background-image: url("https://media.gettyimages.com/photos/rustic-wood-planks-background-picture-id480194940");
+  background-size: cover;
+  margin-bottom: 0;
+}
+.main-content {
+  padding: 1em 2em;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.course {
+  margin-bottom: 1em;
+}
+
+/* IMAGES -------- */
+
+.course-img {
+  width: 70px;
+}
+.teacher-img {
+  width: 100%;
+  border-radius: .3em;
+}
+.not-found {
+  text-align: center;
+}
+
+/* MAIN NAV -------- */
+
+.main-nav a {
+  font-size: .95em;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  padding: 1em;
+  transition: .2s;
+}
+.main-nav a:hover,
+.main-nav .active {
+  color: #fff;
+  background: #3b80d1;
+}
+
+.table {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+.menu-list {
+  display: inline-block;
+  color: white;
+}
+
+/* COURSE NAV -------- */
+
+.course-nav li {
+  display: inline-block;
+}
+.course-nav li + li {
+  margin-left: .6em;
+}
+.course-nav a {
+  font-size: .85em;
+  color: #7d7d7d;
+  padding: .2em .8em;
+  border-radius: .25em;
+  background: #eaebeb;
+  transition: .2s;
+}
+.course-nav a:hover,
+.course-nav a.active {
+  color: #fff;
+  background: #39add1;
+}
+
+.slider-image {
+  object-fit: scale-down;
+  max-height: 400px;
+  max-width: 100%
+}
+
+.attractions-main {
+  display: inline;
+}
+
+.attraction {
+  text-align: center;
+  align-content: center;
+  display: inline;
+
+}
+
+.attraction p{
+  display: inline-block;
+  margin: auto;
+  padding: 1%;
+  margin: 5%;
+  border-radius: 25px;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  border-width: 5%;
+  border-style: solid dotted;
+  border-color: transparent;
+  background-image: url("https://image.freepik.com/free-photo/old-grunge-dark-textured-wooden-background-the-surface-of-the-old-brown-wood-texture_7182-333.jpg");
+  color: white;
+}
+
+.attraction-description {
+  padding-left: 15%;
+  padding-right: 15%;
+  align-self: center;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.attraction-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  border-width: 5%;
+  border-style: solid dotted;
+  border-color: transparent;
+}
+
+.attraction-f1 {
+  float: left;
+  margin: auto;
+  padding: 1%;
+
+}
+
+.attraction-f2 {
+  float: right;
+  margin: auto;
+  padding: 1%;
+}
+
+.home-image {
+  background-color: #ffa949;
+  padding-top: 170px;
+  background-image: url("../images/chereshovo.jpg");
+  height: 330px;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-size: 2rem;
+}
+
